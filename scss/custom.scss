@@ -1,0 +1,34 @@
+nav{
+  li,.navbar-brand{
+    transition: all 0.2s ease;
+    &:hover{
+      transform:scale(1.1);
+    }
+  }
+}
+// =================
+// carousel Styling
+// =================
+.carousel{
+  width:100%;
+  height: 600px;
+  margin-bottom:100px;
+
+  img{
+    width:100% !important;
+    height: 600px !important;
+  }
+}
+
+// SECTION 1 STYLING
+.section-1{
+  text-align: center;
+  .fa{
+    background: $main-color;
+    height:80px;
+    width:80px;
+    border-radius:100%;
+    font-size:50px;
+    color:$white;
+  }
+}
