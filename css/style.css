@@ -8135,13 +8135,36 @@ nav li, nav .navbar-brand {
     height: 600px !important; }
 
 .section-1 {
-  text-align: center; }
-  .section-1 .fa {
+  text-align: center;
+  margin-bottom: 100px; }
+  .section-1 h1 {
+    margin-bottom: 80px; }
+  .section-1 .col-md-4, .section-1 .col-lg-4 {
+    height: 500px;
+    padding: 10px; }
+  .section-1 .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ecf0f1;
+    padding: 80px; }
+  .section-1 .font {
+    display: inline-block;
     background: #0097A7;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     font-size: 50px;
-    color: #ecf0f1; }
+    color: #ecf0f1;
+    position: relative;
+    transition: all 0.3s ease; }
+    .section-1 .font:hover {
+      transform: scale(1.1) rotateZ(360deg); }
+    .section-1 .font .fa {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=style.css.map */
