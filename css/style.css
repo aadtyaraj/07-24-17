@@ -8130,9 +8130,17 @@ nav li, nav .navbar-brand {
   width: 100%;
   height: 600px;
   margin-bottom: 100px; }
+  .carousel .carousel-caption {
+    background: rgba(225, 225, 225, 0.75); }
   .carousel img {
     width: 100% !important;
     height: 600px !important; }
+  .carousel h3 {
+    font-size: 50px;
+    color: #2c3e50; }
+  .carousel p {
+    font-size: 25px;
+    color: #2c3e50; }
 
 .section-1 {
   text-align: center;
@@ -8148,7 +8156,8 @@ nav li, nav .navbar-brand {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #ecf0f1;
-    padding: 80px; }
+    padding: 80px 0;
+    width: 96%; }
   .section-1 .font {
     display: inline-block;
     background: #0097A7;
@@ -8166,5 +8175,61 @@ nav li, nav .navbar-brand {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
+
+@media (max-width: 768px) {
+  .section-1 {
+    width: 90%;
+    margin: auto; } }
+.section-2 {
+  background: #00525A;
+  color: #ecf0f1;
+  text-align: center; }
+  .section-2 h1 {
+    margin-top: 40px;
+    margin-bottom: 80px; }
+  .section-2 .col-md-4, .section-2 .col-lg-4 {
+    height: 500px;
+    padding: 10px; }
+  .section-2 .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px 0;
+    width: 96%; }
+  .section-2 .font {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+    overflow: hidden; }
+    .section-2 .font img {
+      width: 100%;
+      height: 100%;
+      transition: all 0.4s ease-in; }
+    .section-2 .font:hover img {
+      transform: scale(1.1); }
+
+@media (max-width: 768px) {
+  .section-2 .col-md-4, .section-2 .col-lg-4 {
+    height: 400px;
+    padding: 10px; } }
+footer {
+  text-align: center;
+  background: #1A2941;
+  color: #ecf0f1; }
+  footer .row {
+    margin-top: 60px; }
+  footer ul {
+    list-style: none;
+    padding: 0; }
+  footer a {
+    color: #ecf0f1; }
+  footer p {
+    width: 100%;
+    padding: 15px 0;
+    background: #152134;
+    margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
